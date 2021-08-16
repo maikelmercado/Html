@@ -1,0 +1,30 @@
+button{
+    background-color: darkseagreen;
+    color: white;
+}
+/*cuando este sobre el boton  */
+button:hover{
+    background-color: tomato;
+
+}
+/*cuando haga un click cambiara a estas propiedades*/
+button:active{
+    background-color: turquoise;
+}
+ 
+/*clase de nav la convertimos*/
+.a{
+    background-color: tomato;
+    display: block;  /*convertimos elemntos de linea a elementos de bloques*/
+    padding: 20px;
+    margin: 30px;
+
+}
+ 
+/*clase de nav la convertimos de bloque a linea*/
+.b{
+    background-color: rgb(77, 255, 71);
+    display: inline-block;  /*convertimos elemntos de bloque a elementos de linea*/
+    padding: 20px;
+
+}

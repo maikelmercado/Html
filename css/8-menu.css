@@ -1,0 +1,52 @@
+
+
+.nav-enlace{
+ background-color: rgb(187, 116, 104); /*fondo el color*/
+ color: #fff;               /*color de las letras*/
+ padding: 10px 30px;        /*izquierda -derecha*/
+ display: inline-block;   /*bloques    debe tener esto para que funcione flexbox*/
+ text-decoration: none;  /*saca el surayado del link*/
+
+}
+/*para cambiar las propiedades cuando el mouse este encima*/
+.nav-enlace:hover{
+    background-color: rgb(61, 121, 81);
+
+}
+/*clase padre*/
+nav{
+    background-color: yellowgreen;
+    padding:10px;
+    display: flex; /*cajas una a lado del otro*/
+    justify-content: space-around; /*los separa, y crear margenes iguales*/
+
+}
+/*boton menu*/
+.nav-boton{
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    display: none; /*sobre los 600 este boton no se vera */
+
+}
+
+
+@media (max-width: 600px) { /*para modficar y sea responsiva*/
+    nav{
+        background-color: teal;
+        flex-direction: column; /*cambia de a columnas*/
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+    .nav-boton{
+        display: inline-block;
+
+    }
+    .desaparece{
+        display: none;
+
+    
+    }
+}
