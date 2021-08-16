@@ -1,0 +1,31 @@
+h1{
+    color: brown;
+}
+
+/* cambio de propiedades con un id unico*/
+#unico{
+    color: chartreuse;
+}
+
+/*Cambio de propiedades desde una clase*/
+.p{
+    color: chocolate;
+}
+/* se puede agregar otro nombre a la misma clase*/
+.azul{
+    color: rgb(226, 89, 89);
+}
+.fondo{
+    background-color: rgb(128, 190, 128);
+
+}
+    /*Cabiando colores con css
+    rgb primera linea con los rojos, segunda verde, azul
+    #25121455 extradecimales
+    rgba
+    */
+.color{
+    color: darkgrey;
+   
+
+}    

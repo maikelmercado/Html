@@ -1,0 +1,37 @@
+/*Margenes y pading*/
+
+p{
+    background-color: #112f7c;
+}
+h1{
+    background-color:#4d9647 ;
+    margin-left: 100px; /*lado izquierdo*/
+    margin-bottom: 200px; /*lado inferior*/
+    margin-right: 100px; /*margen derecho*/
+    /* margin: 200px 100px; arriba y abajo 200pc y izquierda derecha 100px */
+    /*marging; 100px 200px 100px 50px       como el reloj los margenes*/
+
+    /*PADING  ES LOS MARGENES INTERIORES */
+    padding: 50px;
+
+}
+
+nav{
+    background-color: rgb(170, 170, 170);
+    padding: 20px;
+
+}
+
+/*columnas*/
+.columna{
+    background-color:#C1CFC0 ;
+    color:#6B7AA1;
+    padding: 20px;
+    width: 25%; /* ocupa el 25% de ancho de neustra pagina*/
+    margin: 20px;
+}
+
+/*clase padre de seccion para que se le flexibilidad con flexbox*/
+.padre{
+   display: flex; 
+}
