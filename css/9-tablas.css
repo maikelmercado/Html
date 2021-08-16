@@ -1,0 +1,74 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-weight: 800;
+
+
+}
+
+
+
+
+.container{
+    margin: 0 auto; /*arriba y abajo 0, a los lados auto*/
+    width: 90%; /*queda todo dentrto de un container*/
+}
+
+/*transfoma a columnas*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*centra*/
+.text-center{
+    text-align: center;
+
+}
+.columna{
+    background:rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto; /*margen */
+    padding: 10px;
+    border-radius: 5px; /*abordes */
+    box-shadow: 10px 10px 5px #888; /*para dar las sombras, negativos hacia la izquierda , la tercera es el desgradado*/
+    width: 20%; /*ocupa el ancho disponible*/
+    box-sizing: border-box;
+
+    
+}
+
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+
+}
+
+.btn-precio{
+    background-color: rgb(88, 150, 99);
+    display: block;
+    padding: 10px;
+    color: cornsilk;
+    text-decoration: none; /*eliminar la raya del link*/
+    border-radius: 3px;
+    margin-bottom: 10px; /*margen inferior*/
+
+}
+/*para dar color a otro boton*/
+.btn-precio:hover{
+    background-color: crimson;
+}
+
+@media (max-width:1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:600px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
